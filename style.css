@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c8b6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+}
+
+input {
+    border-radius: 50px;
+    width: 300px;
+    border: none;
+    color: #140f0f;
+    background-color: #bbd0ff;
+    text-align: center;
+    padding: 8px 20px;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    outline: none;
+}
+
+.color-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;    
+}
+
+.flex-item {
+    padding: 40px;
+}
+
+button {
+    width: 120px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(2, 10, 32);
+    background-color: #e7c6ff;
+    border: none;
+    font-weight: 600;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+    padding: 10px 0 10px 10px;
+    cursor: pointer;
+}
+.hex button {
+    padding-right: 10px;
+}
+.fa-solid {
+    padding-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+    text-align: center;
+    background-color:#bbd0ff;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    margin-top: 2px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color: #00070a;
+    cursor: pointer;
+    font-weight: 600;
+} 
+.dropdown-content p {
+    padding: 8px 0;
+    border: none;
+}
+
+.dropdown-content p:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+    border-radius: 12px;
+}
+@media (max-width:768px) {
+    .flex-item {
+        padding: 30px;
+    }
+}
+@media (max-width:550px) {
+    .color-section {
+        flex-direction: column;    
+    }
+}
+
