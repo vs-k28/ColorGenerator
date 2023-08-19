@@ -6,4 +6,5 @@ ColorGenerator is a user-friendly project that simplifies color selection proces
 ![screenshot](ColorGenerator.png)
 #### Demo : 
 Watch the demo video on [YouTube](https://youtu.be/cnzmiq3e0ws).
+#### Visit Website: https://color-generator-kvs.netlify.app/
 
